@@ -15,10 +15,10 @@ audio_stop_sound(snd_music_menu);
 audio_stop_sound(snd_music_game);
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
-/// @DnDVersion : 1
+/// @DnDVersion : 1.1
 /// @DnDHash : 3368F4F7
 /// @DnDComment : Start game music
-/// @DnDArgument : "soundid" "snd_music_game"
+/// @DnDArgument : "soundid" "snd_Zil_Zel"
 /// @DnDArgument : "loop" "1"
-/// @DnDSaveInfo : "soundid" "snd_music_game"
-audio_play_sound(snd_music_game, 0, 1);
+/// @DnDSaveInfo : "soundid" "snd_Zil_Zel"
+audio_play_sound(snd_Zil_Zel, 0, 1, 1.0, undefined, 1.0);
