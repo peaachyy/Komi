@@ -48,22 +48,9 @@ if(curr_room == 1){	/// @DnDAction : YoYo Games.Common.Execute_Code
 	/// @DnDVersion : 1
 	/// @DnDHash : 5CC2F8CB
 	/// @DnDParent : 5827703C
-	/// @DnDArgument : "code" "create_textevent($(13_10)	["Долго я плыл по Вычегде, и наконец причалил", $(13_10)	"Надо спросить у этой бабули, где я нахожусь"],$(13_10)	-1, -1, -1, -1, -1, -1,);"
+	/// @DnDArgument : "code" "create_textevent($(13_10)	["Ох ,как же я долго плыл по реке", $(13_10)	"и наконец-то доплыл до берега!",$(13_10)	"Интересно , где я сейчас? Спрошу у той бабушки"],$(13_10)	-1, -1, -1, -1, -1, -1,);"
 	create_textevent(
-		["Долго я плыл по Вычегде, и наконец причалил", 
-		"Надо спросить у этой бабули, где я нахожусь"],
-		-1, -1, -1, -1, -1, -1,);}
-
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 0D9E2558
-/// @DnDArgument : "var" "curr_room"
-/// @DnDArgument : "value" "3"
-if(curr_room == 3){	/// @DnDAction : YoYo Games.Common.Execute_Code
-	/// @DnDVersion : 1
-	/// @DnDHash : 172418A4
-	/// @DnDParent : 0D9E2558
-	/// @DnDArgument : "code" "create_textevent($(13_10)	"Звучит легко",$(13_10)	-1, -1, -1, -1, -1, -1,);"
-	create_textevent(
-		"Звучит легко",
+		["Ох ,как же я долго плыл по реке", 
+		"и наконец-то доплыл до берега!",
+		"Интересно , где я сейчас? Спрошу у той бабушки"],
 		-1, -1, -1, -1, -1, -1,);}
