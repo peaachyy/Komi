@@ -7,5 +7,6 @@ if (spawn_timer <= 0) {
 
 if(score >= 5)
 {
-	room_goto(3);
+	//room_goto(3);
+	room_goto_next();
 }
